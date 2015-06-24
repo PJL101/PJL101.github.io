@@ -1,7 +1,5 @@
 #!/bin/bash
 
-echo "${GH_REF}"
-
 # Get the commit details
 THE_COMMIT=`git rev-parse HEAD`
 
