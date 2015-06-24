@@ -1,5 +1,7 @@
 #!/bin/bash
 
+echo "${GH_REF}"
+
 # Get the commit details
 THE_COMMIT=`git rev-parse HEAD`
 
@@ -18,7 +20,6 @@ grunt prd
 # IMPORTANT: Supress messages so nothing appears in logs
 cd _dist
 git init
-git remote add gh https://${GH_TOKEN}@github.com/PJL101/pjl101.github.io.git
 git add -A
 git commit -m "Travis GitHub Pages auto build for $THE_COMMIT"
-git push --force --quiet gh master:gh-pages > /dev/null 2>&1
+git push --force --quiet "https://${GH_TOKEN}@${GH_REF}" master:gh-pages > /dev/null 2>&1
