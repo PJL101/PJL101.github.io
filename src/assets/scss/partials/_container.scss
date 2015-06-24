@@ -1,0 +1,7 @@
+.container {
+  @include container($grid-mobile);
+
+  @include mq($from: tablet) {
+    @include container($grid-tablet);
+  }
+}
