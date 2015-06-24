@@ -19,7 +19,7 @@ grunt prd
 cd _dist
 git init
 git remote rm origin
-git remote add origin https://${GH_TOKEN}@${GH_REF}
+git remote add origin https://PJL101:${GH_TOKEN}@github.com/PJL101/pjl101.github.io.git
 git add -A
 git commit -m "Travis GitHub Pages auto build for $THE_COMMIT"
 git push --force --quiet origin master:gh-pages > /dev/null 2>&1
