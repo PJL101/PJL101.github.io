@@ -1,10 +1,10 @@
 {
-  "name": "fedkit-assemble",
-  "description": "A fast and stable Front End Development workflow. Built with Grunt, Libsass and Assemble.",
+  "name": "iampjl.co.uk",
+  "description": "The website for Phil Lennon, a freelance frontend & WordPress developer based in Manchester, UK",
   "private": "true",
-  "homepage": "https://github.com/PJL101/fedkit-assemble/",
+  "homepage": "http://iampjl.co.uk",
   "authors": [
-    "Phil Lennon <enquiry@akuda.co.uk>"
+    "Phil Lennon <enquiry@iampjl.co.uk>"
   ],
   "moduleType": [
     "globals"
