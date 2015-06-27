@@ -13,4 +13,4 @@
 
 Please see the website [source repository](http://github.com/PJL101/iampjl.co.uk) for more information. Please feel free to raise any issues, pull requests, comments, etc there.
 
-This repository is simply the automatically generated output and as such, there is isn't much to see here.
+This repository is simply the automatically generated minified output and as such, there is isn't much to see here.
