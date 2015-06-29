@@ -14,19 +14,26 @@
     <!--[if lt IE 9]>
       <script src="{{assets}}/js/head-oldie.js"></script>
     <![endif]-->
+
+    <script>
+      (function(d) {
+        var config = {
+          kitId: 'nrw7esl',
+          scriptTimeout: 3000
+        },
+        h=d.documentElement,t=setTimeout(function(){h.className=h.className.replace(/\bwf-loading\b/g,"")+" wf-inactive";},config.scriptTimeout),tk=d.createElement("script"),f=false,s=d.getElementsByTagName("script")[0],a;h.className+=" wf-loading";tk.src='//use.typekit.net/'+config.kitId+'.js';tk.async=true;tk.onload=tk.onreadystatechange=function(){a=this.readyState;if(f||a&&a!="complete"&&a!="loaded")return;f=true;clearTimeout(t);try{Typekit.load(config)}catch(e){}};s.parentNode.insertBefore(tk,s)
+      })(document);
+    </script>    
+
   </head>
   <body>
-    <header class="site-header" role="banner">
-      {{>header}}
-    </header>
-    <main class="main">
+    {{>header}}
+    <main role="main">
       {{#block "body"}}
         {{>body}}
       {{/block}}
     </main>
-    <footer class="site-footer" role="contentinfo">
-      {{>footer}}
-    </footer>
+    {{>footer}}
 
     {{#block "gutter"}}{{/block}}
 
