@@ -29,26 +29,38 @@ $mq-static-breakpoint: desktop;
 // If you want to display the currently active breakpoint in the top
 // right corner of your site during development, add the breakpoints
 // to this list, ordered by width, e.g. (mobile, tablet, desktop).
-$mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+// $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
 
 // Site Variables
 // -----------------------------
 
 $base-font-size: 16px;
 $site-container: 61.25em; // 980px
-$site-gutter: 0.25;
+$site-gutter: 1.6rem; // 25px
+$grid-gutter: 0.25; // Quarter of column width
 $mobile-column: 4;
 $tablet-column: 12;
+$grid-debug: show;
+
+// Colours
+$brand-a: #111111;
+$brand-b: #e8e8e8;
+
+// Fonts
+$font-primary: "skolar", serif;
+$font-primary-weight: 400;
+$font-headline: "ff-meta-web-pro", sans-serif;
+$font-headline-weight: 700;
 
 // Default Grid Options
 // -----------------------------
 
 $grid-mobile: (
   columns: $mobile-column,
-  gutters: $site-gutter,
+  gutters: $grid-gutter,
   global-box-sizing: border-box,
   debug: (
-    image: show,
+    image: $grid-debug,
     color: blue,
     output: overlay,
     toggle: top left,
@@ -57,44 +69,13 @@ $grid-mobile: (
 
 $grid-tablet: (
   columns: $tablet-column,
-  gutters: $site-gutter,
+  gutters: $grid-gutter,
   global-box-sizing: border-box,
   debug: (
-    image: show,
+    image: $grid-debug,
     color: blue,
     output: overlay,
     toggle: top left,
   ),
   container: $site-container,
 );
-
-/* For reference, the susy defaults are:
-
-$susy: (
-  flow: ltr,
-  math: fluid,
-  output: float,
-  gutter-position: after,
-  container: auto,
-  container-position: center,
-  columns: 4,
-  gutters: .25,
-  column-width: false,
-  global-box-sizing: content-box,
-  last-flow: to,
-  debug: (
-    image: hide,
-    color: rgba(#66f, .25),
-    output: background,
-    toggle: top right,
-  ),
-  use-custom: (
-    background-image: true,
-    background-options: false,
-    box-sizing: true,
-    clearfix: false,
-    rem: true,
-  )
-);
-
-*/

@@ -1,0 +1,36 @@
+body {
+  font-family: $font-primary;
+  font-weight: $font-primary-weight;
+  color: $brand-a;
+}
+
+.h1,
+.h2,
+.h3 {
+  font-family: $font-headline;
+  font-weight: $font-headline-weight;
+  margin-top: 0;
+}
+
+.h1 {
+  font-size: 5.063rem;
+  line-height: 1.1;
+}
+
+.h2 {
+  font-size: 3.375rem;
+  line-height: 1.2;
+}
+
+.h3 {
+  font-size: 2.25rem;
+}
+
+.footnote {
+  color: inherit;
+  text-decoration: none;
+}
+
+a {
+  color: $brand-a;
+}

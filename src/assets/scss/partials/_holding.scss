@@ -1,0 +1,44 @@
+.summary {
+  @include cf();
+  margin-bottom: 60px;
+
+  &__header {
+    margin-bottom: 40px;
+  }
+
+  &__subheader {
+      margin-bottom: 40px;
+  }
+
+  &__tagline {
+    margin-bottom: 10px;
+  }
+
+  &__footnote {
+
+  }
+}
+
+.examples {
+  margin-bottom: 20px;
+
+  @include mq($from: tablet) {
+    @include span(6 of $tablet-column);
+  }
+
+  &__list {
+    margin-bottom: 40px;
+  }
+}
+
+.tools {
+  margin-bottom: 20px;
+
+  @include mq($from: tablet) {
+    @include span(6 of $tablet-column last);
+  }
+
+  &__list {
+    margin-bottom: 40px;
+  }
+}

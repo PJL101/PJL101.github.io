@@ -6,20 +6,41 @@ description: I am Phil Lennon - Freelance Frontend Web Development and WordPress
 {{#extend "master"}}
   {{#content "body"}}
     <div class="container promo">
-      <div class="promo__summary">
-        summary/agencies worked
+      <div class="summary">
+        <h1 class="h1 summary__header">I am Phil James Lennon</h1>
+        <h2 class="h2 summary__subheader">A freelance frontend and WordPress developer based in Manchester, UK</h2>
+        <h3 class="h3 summary__tagline">Specialises in accessibility and frontend workflow<sup><a class="footnote" href="#holding-fn1">*</a></sup></h3>
+        <p id="holding-fn1" class="summary__footnote">* But more than happy to integrate into yours!</p>
       </div>
 
-      <div class="promo__examples">
-        examples
+      <div class="examples">
+        <p>I have worked in:</p>
+        <ul class="examples__list">
+          <li class="examples__item">Amaze</li>
+          <li class="examples__item">Havas Lynx</li>
+          <li class="examples__item">Building Blocks</li>
+          <li class="examples__item">Loaf Creative</li>
+          <li class="examples__item">Uniform Communications</li>
+          <li class="examples__item">Health and Safety Executive</li>
+        </ul>
+        <p>Most of my work is under NDA but I have built:</p>
+        <ul class="examples__list">
+          <li class="examples__item"><a href="http://nspcc.org.uk">NSPCC</a> - Frontend (2014)</li>
+          <li class="examples__item"><a href="http://thecrabbiesgrandnational.co.uk">The Crabbies Grand National</a> - Frontend &amp; WordPress (2013)</li>
+          <li class="examples__item"><a href="http://wirralwaters.co.uk">Wirral Waters</a> - Frontend &amp; WordPress (2014)</li>
+        </ul>
       </div>
 
-      <div class="promo__tools">
-        tools/open source
+      <div class="tools">
+        <p>I can use your workflow or I can immediately start using my own open source kits:</p>
+        <ul class="tools__list">
+          <li class="tools__item"><a href="https://github.com/PJL101/fedkit-assemble/">fedkit-assemble</a> - Frontend kit with Assemble - Stable and well tested, documentation in progress</li>
+          <li class="tools__item"><a href="https://github.com/PJL101/wpkit/">wpkit</a> - WordPress kit with vagrant - Very early in development</li>
+        </ul>
+        <p>I have assisted several agencies with establishing a modern frontend workflow. Unfortunately this isn't something I can demonstrate easily here!</p>
       </div>
     </div>
   {{/content}}
 
-  {{#content "gutter"}}
-  {{/content}}
+  {{#content "gutter"}}{{/content}}
 {{/extend}}

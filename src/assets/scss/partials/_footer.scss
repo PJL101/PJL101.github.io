@@ -1,5 +1,26 @@
-.site-footer {
-  h1 {
-      margin-top: 0;
+.footer {
+
+}
+
+.contact {
+  margin-bottom: 40px;
+}
+
+.site-details {
+  background-color: $brand-b;
+  padding: 20px 0 10px 0;
+
+  &__list {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+  }
+
+  &__item {
+    margin-bottom: 10px;
+
+    img {
+      margin-right: 10px;
+    }
   }
 }

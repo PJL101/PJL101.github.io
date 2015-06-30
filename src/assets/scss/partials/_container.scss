@@ -1,5 +1,6 @@
 .container {
   @include container($grid-mobile);
+  padding: 0 $site-gutter;  
 
   @include mq($from: tablet) {
     @include container($grid-tablet);
