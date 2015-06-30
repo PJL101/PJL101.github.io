@@ -121,8 +121,8 @@ module.exports = function(grunt) {
           dest: '<%= site.distAssets %>/css/'
         }],
         options: {
-          fallback: true,
-          fallback_existing_rem: true,
+          fallback: false,
+          fallback_existing_rem: false,
           map: true,
           ignore: ['content']
         }
@@ -135,8 +135,8 @@ module.exports = function(grunt) {
           dest: '<%= site.distAssets %>/css/'
         }],
         options: {
-          fallback: true,
-          fallback_existing_rem: true,
+          fallback: false,
+          fallback_existing_rem: false,
           map: false,
           ignore: ['content']
         }
