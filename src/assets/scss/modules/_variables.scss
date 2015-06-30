@@ -40,7 +40,7 @@ $site-gutter: 1.6rem; // 25px
 $grid-gutter: 0.25; // Quarter of column width
 $mobile-column: 4;
 $tablet-column: 12;
-$grid-debug: show;
+$grid-debug: hide;
 
 // Colours
 $brand-a: #111111;
@@ -62,7 +62,7 @@ $grid-mobile: (
   debug: (
     image: $grid-debug,
     color: blue,
-    output: overlay,
+    output: image,
     toggle: top left,
   ),
 );
@@ -74,7 +74,7 @@ $grid-tablet: (
   debug: (
     image: $grid-debug,
     color: blue,
-    output: overlay,
+    output: image,
     toggle: top left,
   ),
   container: $site-container,
