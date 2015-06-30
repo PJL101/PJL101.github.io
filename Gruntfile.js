@@ -191,7 +191,7 @@ module.exports = function(grunt) {
       },
       all: [
         '<%= site.gruntFile %>',
-        '<%= site.srcAssets %>/js/global.js',
+      //  '<%= site.srcAssets %>/js/global.js',
         '<%= site.srcAssets %>/js/modules/**/*.js',
         '<%= site.srcAssets %>/js/main.js',
       ]
@@ -209,10 +209,10 @@ module.exports = function(grunt) {
           sourceMapIncludeSources: true
         },
         files: {
-          '<%= site.distAssets %>/js/head.js': ['<%= site.srcAssets %>/js/head/**/*.js'],
-          '<%= site.distAssets %>/js/head-oldie.js': ['<%= site.srcAssets %>/js/head-oldie/**/*.js'],
+        //  '<%= site.distAssets %>/js/head.js': ['<%= site.srcAssets %>/js/head/**/*.js'],
+        //  '<%= site.distAssets %>/js/head-oldie.js': ['<%= site.srcAssets %>/js/head-oldie/**/*.js'],
           '<%= site.distAssets %>/js/site.js': [
-            '<%= site.srcAssets %>/js/global.js',
+        //    '<%= site.srcAssets %>/js/global.js',
             '<%= site.srcAssets %>/js/vendor/**/*.js',
             '<%= site.srcAssets %>/js/plugins/**/*.js',
             '<%= site.srcAssets %>/js/modules/**/*.js',
@@ -230,10 +230,10 @@ module.exports = function(grunt) {
           sourceMapIncludeSources: false
         },
         files: {
-          '<%= site.distAssets %>/js/head.js': ['<%= site.srcAssets %>/js/head/**/*.js'],
-          '<%= site.distAssets %>/js/head-oldie.js': ['<%= site.srcAssets %>/js/head-oldie/**/*.js'],
+        //  '<%= site.distAssets %>/js/head.js': ['<%= site.srcAssets %>/js/head/**/*.js'],
+        //  '<%= site.distAssets %>/js/head-oldie.js': ['<%= site.srcAssets %>/js/head-oldie/**/*.js'],
           '<%= site.distAssets %>/js/site.js': [
-            '<%= site.srcAssets %>/js/global.js',
+        //    '<%= site.srcAssets %>/js/global.js',
             '<%= site.srcAssets %>/js/vendor/**/*.js',
             '<%= site.srcAssets %>/js/plugins/**/*.js',
             '<%= site.srcAssets %>/js/modules/**/*.js',
