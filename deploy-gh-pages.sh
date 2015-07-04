@@ -4,7 +4,7 @@
 THE_COMMIT=`git rev-parse HEAD`
 
 # Set git details
-git config --global user.email "travis@iampjl.co.uk"
+git config --global user.email "enquiry@iampjl.co.uk"
 git config --global user.name "Travis CI"
 
 # Delete _dist
