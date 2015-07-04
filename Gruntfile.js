@@ -324,7 +324,7 @@ module.exports = function(grunt) {
     // Use by running: 'grunt bump:patch', 'grunt bump:minor', 'grunt bump:major'
     bump: {
         options: {
-          files: ['package.json'],
+          files: ['package.json', 'npm-shrinkwrap.json'],
           updateConfigs: [],
           commit: true,
           commitMessage: 'Release v%VERSION%',
@@ -339,7 +339,7 @@ module.exports = function(grunt) {
           prereleaseName: false,
           regExp: false
         }
-      },    
+      },
   });
 
   // Tasks

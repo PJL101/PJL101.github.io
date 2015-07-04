@@ -17,8 +17,7 @@ body {
   line-height: 1.1;
 
   @include mq($from: tablet) {
-    font-size: 5.063rem;
-    line-height: 1.1;
+    font-size: 81px;
   }
 }
 
@@ -27,8 +26,7 @@ body {
   line-height: 1.2;
 
   @include mq($from: tablet) {
-    font-size: 3.375rem;
-    line-height: 1.2;
+    font-size: 54px;
   }
 }
 
@@ -36,7 +34,7 @@ body {
   font-size: 16px;
 
   @include mq($from: tablet) {
-    font-size: 2.25rem;
+    font-size: 36px;
   }
 }
 
