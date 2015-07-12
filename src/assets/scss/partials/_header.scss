@@ -1,6 +1,7 @@
 .header {
   margin-bottom: 40px;
   background-color: $brand-b;
+  overflow: hidden;
 
   &__message {
     &__btn {
