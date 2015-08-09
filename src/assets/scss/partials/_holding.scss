@@ -19,11 +19,11 @@
 .examples {
   margin-bottom: 20px;
 
-  @include mq($from: m) {
-    @include span(10 of $tablet-column);
-  }
   @include mq($from: l) {
     @include span(6 of $tablet-column);
+  }
+  @include mq($from: m) {
+    @include span(10 of $tablet-column);
   }
 
   &__list {
@@ -34,11 +34,11 @@
 .tools {
   margin-bottom: 20px;
 
-  @include mq($from: m) {
-    @include span(10 of $tablet-column);
-  }
   @include mq($from: l) {
     @include span(6 of $tablet-column last);
+  }
+  @include mq($from: m) {
+    @include span(10 of $tablet-column);
   }
 
   &__list {

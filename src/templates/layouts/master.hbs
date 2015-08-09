@@ -29,11 +29,11 @@
   </head>
   <body>
     {{>header}}
-    <main role="main">
       {{#block "body"}}
-        {{>body}}
+        <main role="main">
+          {{>body}}
+        </main>
       {{/block}}
-    </main>
     {{>footer}}
 
     {{#block "gutter"}}{{/block}}
