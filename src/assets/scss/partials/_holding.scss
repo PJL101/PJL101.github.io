@@ -1,21 +1,18 @@
 .summary {
-  @include cf();
   margin-bottom: 60px;
+
+  @include cf();
 
   &__header {
     margin-bottom: 40px;
   }
 
   &__subheader {
-      margin-bottom: 40px;
+    margin-bottom: 40px;
   }
 
   &__tagline {
     margin-bottom: 10px;
-  }
-
-  &__footnote {
-
   }
 }
 

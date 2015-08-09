@@ -1,18 +1,18 @@
-.footer {
 
-}
 
 .contact {
   margin-bottom: 40px;
 }
 
 .site-details {
-  background-color: $brand-b;
   padding: 20px 0 10px 0;
+
+  background-color: $brand-b;
 
   &__list {
     margin: 0;
     padding: 0;
+
     list-style-type: none;
   }
 

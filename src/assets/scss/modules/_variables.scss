@@ -37,7 +37,7 @@ $mq-static-breakpoint: desktop;
 $base-font-size: 16px;
 $site-container: 61.25em; // 980px
 $site-gutter: 1.25rem; // 20px
-$grid-gutter: 0.25; // Quarter of column width
+$grid-gutter: .25; // Quarter of column width
 $mobile-column: 4;
 $tablet-column: 12;
 $grid-debug: hide;
@@ -47,9 +47,9 @@ $brand-a: #111111;
 $brand-b: #e8e8e8;
 
 // Fonts
-$font-primary: "skolar", serif;
+$font-primary: 'skolar', serif;
 $font-primary-weight: 400;
-$font-headline: "ff-meta-web-pro", sans-serif;
+$font-headline: 'ff-meta-web-pro', sans-serif;
 $font-headline-weight: 700;
 
 // Default Grid Options
@@ -61,7 +61,7 @@ $grid-mobile: (
   global-box-sizing: border-box,
   debug: (
     image: $grid-debug,
-    color: rgba(#66f, .25),
+    color: rgba(#6666ff, .25),
     output: background,
   ),
   use-custom: (
@@ -72,7 +72,6 @@ $grid-mobile: (
     rem: false,
   )
 );
-
 $grid-tablet: (
   columns: $tablet-column,
   gutters: $grid-gutter,
@@ -80,7 +79,7 @@ $grid-tablet: (
   container: $site-container,
   debug: (
     image: $grid-debug,
-    color: rgba(#66f, .25),
+    color: rgba(#6666ff, .25),
     output: background,
   ),
   use-custom: (

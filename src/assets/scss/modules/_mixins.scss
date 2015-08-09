@@ -4,8 +4,9 @@
 @mixin cf {
   &:before,
   &:after {
-    content: " ";
     display: table;
+
+    content: ' ';
   }
 
   &:after {
@@ -20,16 +21,16 @@
 // @include background2x('../img/logo', png, 200px, 100px);
 
 @mixin background2x($file, $type, $width, $height) {
-  background-image: url($file + '.' + $type);
+  background-image: url($file ) '.' + $type;;
   @media only screen and (-webkit-min-device-pixel-ratio: 2),
-    only screen and (-moz-min-device-pixel-ratio: 2),
-    only screen and (-o-min-device-pixel-ratio: 2/1),
-    only screen and (min-device-pixel-ratio: 2),
-    only screen and (min-resolution: 192dpi),
-    only screen and (min-resolution: 2dppx){
+  only screen and (-moz-min-device-pixel-ratio: 2),
+  only screen and (-o-min-device-pixel-ratio: 2/1),
+  only screen and (min-device-pixel-ratio: 2),
+  only screen and (min-resolution: 192dpi),
+  only screen and (min-resolution: 2dppx) {
     & {
-      background-image: url($file + '@2x.' + $type);
-      background-size: $width $height;
+      background-image: url($file ) '@2x.' + $type;
+      background-size: $width $height;;
     }
   }
 }
