@@ -434,11 +434,11 @@ module.exports = function(grunt) {
     // Use by running: 'grunt bump:patch', 'grunt bump:minor', 'grunt bump:major'
     bump: {
       options: {
-        files: ['package.json', 'README.md'],
+        files: ['package.json', 'npm-shrinkwrap.json', 'README.md', '<%= site.srcAssets %>/files/README.md'],   
         updateConfigs: [],
         commit: true,
         commitMessage: 'Release v%VERSION%',
-        commitFiles: ['package.json', 'README.md'],
+        commitFiles: ['package.json', 'npm-shrinkwrap.json', 'README.md', '<%= site.srcAssets %>/files/README.md'],
         createTag: true,
         tagName: 'v%VERSION%',
         tagMessage: 'Version %VERSION%',
