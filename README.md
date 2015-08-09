@@ -14,8 +14,8 @@ Website Version: 1.0.19
 
 This is the source code for the website and blog of Phil Lennon, a freelance Frontend and WordPress developer based in Manchester, UK.
 
-This website has been made with [fedkit-assemble v0.4.8](https://github.com/PJL101/fedkit-assemble) and is automatically built and published with Travis CI (a blog post about this is coming ASAP). You can see the output of this in the GitHub hosted [website repository](https://github.com/PJL101/PJL101.github.io).
+This website has been made with [fedkit-assemble v0.6.1](https://github.com/PJL101/fedkit-assemble) and is automatically built and published with Travis CI (a blog post about this is coming ASAP). You can see the output of this in the GitHub hosted [website repository](https://github.com/PJL101/PJL101.github.io).
 
-Currently this website is just a holding page with the blog part coming ASAP. I'll probably switch to fedkit-hugo (WIP) at this point.
+Currently this website is just a holding page with the 'proper' website and blog coming ASAP.
 
 Please feel free to raise any issues, pull requests, comments etc. I am vey open to feedback, positive or negative!

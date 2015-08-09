@@ -91,7 +91,6 @@
     "$": true,
     "console": true,
     "document": true,
-    "exampleModule": true,
     "exports": true,
     "jQuery": true,
     "Modernizr": true,
@@ -101,6 +100,8 @@
     "require": true,
     "setInterval": true,
     "setTimeout": true,
-    "window": true
+    "window": true,
+
+    "exampleModule": true    
   }
 }
