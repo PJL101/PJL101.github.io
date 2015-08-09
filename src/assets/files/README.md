@@ -1,5 +1,5 @@
 # iampjl.co.uk
-Website Version: 1.1.1
+Website Version: 1.1.2
 
 [![Build Status](https://travis-ci.org/PJL101/iampjl.co.uk.svg?branch=master)](https://travis-ci.org/PJL101/iampjl.co.uk)
 [![Dependency Status](https://david-dm.org/PJL101/iampjl.co.uk.svg)](https://david-dm.org/PJL101/iampjl.co.uk)
