@@ -19,7 +19,10 @@
 .examples {
   margin-bottom: 20px;
 
-  @include mq($from: tablet) {
+  @include mq($from: m) {
+    @include span(10 of $tablet-column);
+  }
+  @include mq($from: l) {
     @include span(6 of $tablet-column);
   }
 
@@ -31,7 +34,10 @@
 .tools {
   margin-bottom: 20px;
 
-  @include mq($from: tablet) {
+  @include mq($from: m) {
+    @include span(10 of $tablet-column);
+  }
+  @include mq($from: l) {
     @include span(6 of $tablet-column last);
   }
 

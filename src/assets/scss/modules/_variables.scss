@@ -11,14 +11,9 @@ $mq-responsive: true;
 // across team members. It will improve communication between
 // stakeholders, designers, developers, and testers.
 $mq-breakpoints: (
-  mobile:  320px,
-  tablet:  740px,
-  desktop: 980px,
-  wide:    1300px,
-
-  // Tweakpoints
-  desktopAd: 810px,
-  mobileLandscape: 480px
+  s:   320px,
+  m:   600px,
+  l:   1100px,
 );
 
 // Define the breakpoint from the $mq-breakpoints list that should
@@ -29,13 +24,13 @@ $mq-static-breakpoint: desktop;
 // If you want to display the currently active breakpoint in the top
 // right corner of your site during development, add the breakpoints
 // to this list, ordered by width, e.g. (mobile, tablet, desktop).
-// $mq-show-breakpoints: (mobile, mobileLandscape, tablet, desktop, wide);
+$mq-show-breakpoints: (s, m, l);
 
 // Site Variables
 // -----------------------------
 
 $base-font-size: 16px; // Recommended to not change this
-$site-container: 61.25em; // 980px
+$site-container: 68.750rem; // 1100px
 $site-gutter: 1.25rem; // 20px
 $grid-gutter: .25; // Quarter of column width
 $mobile-column: 4;

@@ -18,7 +18,7 @@ body {
   font-size: 32px;
   line-height: 1.1;
 
-  @include mq($from: tablet) {
+  @include mq($from: m) {
     font-size: 81px;
   }
 }
@@ -27,7 +27,7 @@ body {
   font-size: 24px;
   line-height: 1.2;
 
-  @include mq($from: tablet) {
+  @include mq($from: m) {
     font-size: 54px;
   }
 }
@@ -35,7 +35,7 @@ body {
 .h3 {
   font-size: 16px;
 
-  @include mq($from: tablet) {
+  @include mq($from: m) {
     font-size: 36px;
   }
 }
@@ -49,8 +49,6 @@ body {
 a {
   color: $brand-a;
 }
-
-
 
 li {
   line-height: 1.7;
