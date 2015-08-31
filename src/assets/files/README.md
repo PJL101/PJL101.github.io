@@ -12,6 +12,6 @@ Website Version: 1.1.4
 
 -
 
-Please see the website [source repository](http://github.com/PJL101/iampjl.co.uk) for more information. Please feel free to raise any issues, pull requests, comments, etc there.
+Please see the website [source repository](http://github.com/PJL101/iampjl.co.uk) for more information or to browse the code. Feel free to raise any issues, pull requests, comments, etc.
 
-This repository is simply the automatically generated minified output and as such, there is isn't much to see here.
+This repository is simply the automatically generated and minified output so as such, there isn't much to see.
