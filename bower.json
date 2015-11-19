@@ -1,5 +1,5 @@
 {
-  "name": "iampjl.co.uk",
+  "name": "iampjl.co.uk-2015",
   "description": "The website for Phil Lennon, a freelance Frontend & WordPress developer based in Manchester, UK",
   "private": "true",
   "homepage": "http://iampjl.co.uk",
@@ -37,7 +37,7 @@
     },
     "ignore": [
       "modernizr"
-    ],    
+    ],
     "sources": {
       "susy": "bower_components/susy/sass/**"
     }
