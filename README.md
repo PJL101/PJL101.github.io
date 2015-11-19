@@ -12,7 +12,9 @@ Website Version: 1.1.10
 
 -
 
-## Note: This site is now depreciated as the 2016 website is now in progress. This is here for the archives :)
+Note: This site is now **depreciated** as the 2016 website is now in progress. This is here for the archives :)
+
+-
 
 This is the source code for the website of Phil Lennon, a freelance Frontend and WordPress developer based in Manchester, UK.
 
